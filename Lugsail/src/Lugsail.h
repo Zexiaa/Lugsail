@@ -2,8 +2,8 @@
 
 // For Lugsail application use
 
-#include <stdio.h>
 #include "Lugsail/Application.h"
+#include "Lugsail/Log.h"
 
 
 //=================ENTRY POINT=============
