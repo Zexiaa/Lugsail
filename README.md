@@ -1,5 +1,6 @@
-# Lugsail
-Lugsail Game Engine
+# Lugsail Game Engine
 
-With reference to The Cherno's [tutorials](https://thecherno.com/engine), would not have been able to learn how to make a game engine without them.
+Repository for my learning adventure to make a game engine.
 
+# References
+[Travis Vroman's Kohi Game Engine](https://kohiengine.com/)
