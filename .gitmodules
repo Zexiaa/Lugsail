@@ -1,3 +1,0 @@
-[submodule "Lugsail/vendor-libs/spdlog"]
-	path = Lugsail/vendor-libs/spdlog
-	url = https://github.com/gabime/spdlog
