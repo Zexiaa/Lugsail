@@ -2,7 +2,7 @@ REM Build script for testbed
 @ECHO OFF
 SetLocal EnableDelayedExpansion
 
-REM Get a list of all the .c files
+REM Get a list of all the .cp files
 SET cFilenames=
 FOR /R %%f in (*.c) do (
   SET cFilenames=!cFilesnames! %%f
@@ -15,7 +15,7 @@ SET compilerFlags=-g
 REM -Wall -Werror
 SET includeFlags=-Isrc -I../engine/src/
 SET linkerFlags=-L../bin/ -lengine.lib
-SET defines=-D_DEBUG -DLIMPORT
+SET defines=-D_DEBUG -DLSIMPORT
 
 ECHO "Building %assembly%%..."
 clang %cFilenames% %compilerFlags% -o ../bin/%assembly%.exe %defines% %includeFlags% %linkerFlags%
